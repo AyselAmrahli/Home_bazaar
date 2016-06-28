@@ -230,7 +230,7 @@
    
       </div>
 </section>
-c
+
     <!-- Shop SideBar page end
 
   </body>

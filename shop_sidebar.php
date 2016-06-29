@@ -31,7 +31,7 @@
     <div class="blog">
         <div class="shopSidebarBg"></div>
         <img src="images/_slider2.jpg">
-        <h4>SHOP</h4>
+        <h4 style="color: white; font-weight: bold;">SHOP</h4>
     </div>
     <!-- green blog end -->
 
@@ -53,16 +53,17 @@
      <!-- Showing Results line start -->   
             <div class="showingResults">
               <h5>SHOWING 1-9 OF 100 RESULTS</h5>
-              <h6 class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a href="#">HTML</a></li>
-                  <li><a href="#">CSS</a></li>
-                  <li><a href="#">JavaScript</a></li>
-                </ul>
-              </h6>
+               <H6 class="dropdown">
+                  <p href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black;">DEFAULT SORTING <span class="glyphicon glyphicon-menu-down"></span></p>
+                  <ul class="dropdown-menu dropOrg">
+                    <li>First</li>
+                    <li>Second</li>
+                    <li>Third</li>
+                  </ul>
+                </H6>
             </div>
+
+            
      
      <!-- Showing Results line end -->
     </div>
@@ -102,15 +103,15 @@
             <div class="category">
               <h2 class="text-center">Categories</h2>
               <ul class="list-group">
-                <li class="list-group-item">Birthday Gifts (7)</li>
-                <li class="list-group-item">Citchen Things (7)</li>
-                <li class="list-group-item" style="color:green; font-weight: bold;">&nbsp; &nbsp; Decor Art (15)</li>
-                <li class="list-group-item">Every Day (3)</li>
-                <li class="list-group-item">Furniture (6)</li>
-                <li class="list-group-item">Illumination (4)</li>
-                <li class="list-group-item">Party </li>
-                <li class="list-group-item">Romantic (3)</li>
-                <li class="list-group-item">Special Goods</li>
+                <li class="list-group-item"><a href="#">Birthday Gifts (7)</a></li>
+                <li class="list-group-item"><a href="#">Citchen Things (7)</a></li>
+                <li class="list-group-item" id="decorArt"><a style="color:green; font-weight: bold;" href="#">&nbsp; &nbsp; Decor Art (15)</a></li>
+                <li class="list-group-item"><a href="#">Every Day (3)</a></li>
+                <li class="list-group-item"><a href="#">Furniture (6)</a></li>
+                <li class="list-group-item"><a href="#">Illumination (4)</a></li>
+                <li class="list-group-item"><a href="#">Party </a></li>
+                <li class="list-group-item"><a href="#">Romantic (3)</a></li>
+                <li class="list-group-item"><a href="#">Special Goods</a></li>
               </ul>
             </div>
           </div>
@@ -119,96 +120,96 @@
         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
+            <div class="lil_arrival imgScale">
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
+             <div class="lil_arrival imgScale">
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
+             <div class="lil_arrival imgScale">
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-            <div class="eye"><i class="fa fa-2x fa-eye" aria-hidden="true"></i></div>
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
+             <div class="lil_arrival imgScale">
+              <div class="trinagle"></div>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-              <span class="new pull-xs-right pull-sm-right pull-md-right pull-lg-right">NEW</span>
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
-                
+            <div class="lil_arrival imgScale">
+            <span class="pull-right" id="new">NEW</span>
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
+             <div class="lil_arrival imgScale">
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
+             <div class="lil_arrival imgScale">
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
+             <div class="lil_arrival imgScale">
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div  class="bigBlock">
-            <a href="#">
-                <img class="center-block img-responsive"  src="images/_slider.jpg">
-            </a>
+             <div class="lil_arrival imgScale">
+                <a href="#">
+                  <img class="center-block img-responsive"  src="images/angel.jpg">
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
-                <p class="text-center text-muted">$45.00</p>
-                <button type="button" class="btn btn-default">ADD TO CARD</button>
+                <p class="text-center">$45.00</p>
+                <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
             </div>
           </div>
         </div>
@@ -233,6 +234,7 @@
    
       </div>
 </section>
+
 
     <!-- Shop SideBar page end
 

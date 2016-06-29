@@ -3,10 +3,11 @@ $textcenter:center;
 $gr:#8ac43f;
 $gy:#D3D3D3;
 
-body{
-	margin:0px;
-	padding:0px;
-}
+
+// body{
+// 	margin:0px;
+// 	padding:0px;
+// }
 
 .ourrow{
 	h1{
@@ -30,8 +31,11 @@ body{
 .rowcol{
 	margin:0;
 	}
-.row {
-	margin:0;
+.classrow{
+	.row {
+	margin:0px;
+	padding: 0px;
+}
 }
 .rownewsleft{
 	cursor:pointer;
@@ -45,6 +49,7 @@ body{
 		font-family: $font;
     
     }
+
 .rownewsright{
 	cursor:pointer;
 	text-align: justify;
@@ -82,6 +87,9 @@ body{
 
   
 }
+.lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li {
+    float: left;
+}
 #datemonthright{
 	cursor:pointer;
     position:absolute;
@@ -105,6 +113,9 @@ body{
 		.lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
 			background-color: green;
 	}
+	.lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li {
+    float: left;
+}
 }
 .followinsta{
 	cursor:pointer;

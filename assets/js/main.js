@@ -37,8 +37,8 @@
 
 		$("#lightSlider").lightSlider({
 			item: 8,
-			// slideMove: 1,
-			// controls: true,
+		// 	// slideMove: 1,
+		// 	// controls: true,
 		}); 
 });
 

@@ -2,13 +2,13 @@
 @font-face {
   font-family: 'beyond_the_mountains';
   src: url("../../assets/fonts/beyond_the_mountains.eot");
-  src: local("Γÿ║"), url("../../assets/fonts/beyond_the_mountains.woff") format("woff"), url("../../assets/fonts/beyond_the_mountains.ttf") format("truetype"), url("../../assets/fonts/beyond_the_mountains.svg") format("svg");
+  src: local("тШ║"), url("../../assets/fonts/beyond_the_mountains.woff") format("woff"), url("../../assets/fonts/beyond_the_mountains.ttf") format("truetype"), url("../../assets/fonts/beyond_the_mountains.svg") format("svg");
   font-weight: bold;
   font-style: bold; }
 @font-face {
   font-family: 'Lato-Regular';
   src: url("../../assets/fonts/Lato-Regular.eot");
-  src: local("Γÿ║"), url("../../assets/fonts/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato-Regular.ttf") format("truetype"), url("../../assets/fonts/Lato-Regular.svg") format("svg");
+  src: local("тШ║"), url("../../assets/fonts/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato-Regular.ttf") format("truetype"), url("../../assets/fonts/Lato-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 a, a:hover {
@@ -238,10 +238,6 @@ a:hover {
     padding-top: 40px;
     padding-bottom: 40px; }
 
-body {
-  margin: 0px;
-  padding: 0px; }
-
 .ourrow h1 {
   text-align: center;
   padding-top: 70px;
@@ -260,8 +256,9 @@ body {
 .rowcol {
   margin: 0; }
 
-.row {
-  margin: 0; }
+.classrow .row {
+  margin: 0px;
+  padding: 0px; }
 
 .rownewsleft {
   cursor: pointer;
@@ -305,6 +302,9 @@ body {
   color: #D3D3D3;
   top: 5px; }
 
+.lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li {
+  float: left; }
+
 #datemonthright {
   cursor: pointer;
   position: absolute;
@@ -325,6 +325,8 @@ body {
     background-color: #3FB649; }
   #instafotos .lSSlideOuter .lSPager.lSpg > li:hover a, #instafotos .lSSlideOuter .lSPager.lSpg > li.active a {
     background-color: green; }
+  #instafotos .lSSlideOuter .lightSlider > *, #instafotos .lSSlideOuter .lSGallery li {
+    float: left; }
 
 .followinsta {
   cursor: pointer;
@@ -534,7 +536,7 @@ body {
 @font-face {
   font-family: 'Lato-Regular';
   src: url("../../assets/fonts/Lato-Regular.eot");
-  src: local("Γÿ║"), url("../../assets/fonts/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato-Regular.ttf") format("truetype"), url("../../assets/fonts/Lato-Regular.svg") format("svg");
+  src: local("тШ║"), url("../../assets/fonts/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato-Regular.ttf") format("truetype"), url("../../assets/fonts/Lato-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 @media screen and (max-width: 520px) {
@@ -795,5 +797,113 @@ body {
         color: black;
         width: 30%;
         border-radius: 0; } }
+.blog {
+  height: 150px;
+  background: #81A05D;
+  text-align: center;
+  font-famil: "Lato", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  padding-top: 38px; }
+
+.iconspan {
+  font: 18px "Lato", sans-serif;
+  height: 64px;
+  padding-top: 32px; }
+  .iconspan .icon {
+    font-size: 73%;
+    margin: 0px 10px 0px 10px;
+    color: #D3D3D3; }
+  .iconspan a {
+    text-decoration: none;
+    color: black; }
+  .iconspan .blogrighticons {
+    height: 38px;
+    width: 140px;
+    background-color: #F5F5F5;
+    margin-top: -12px;
+    font: 14px "Lato", sans-serif;
+    text-align: center;
+    padding-top: 10px; }
+  .iconspan .righticon {
+    font-size: 108%; }
+    .iconspan .righticon p {
+      margin: 0px 5px 0px 5px;
+      font-size: 100%;
+      display: inline-block;
+      color: black; }
+  .iconspan .righticon2 {
+    color: #81A05D; }
+
+.blogpic {
+  cursor: pointer;
+  height: 210px;
+  width: 400px;
+  margin-bottom: 50px; }
+  .blogpic img {
+    height: 210px;
+    width: 400px; }
+
+.blogrownewsleft {
+  cursor: pointer;
+  text-align: justify;
+  margin-top: -30px;
+  font-family: "Lato", sans-serif;
+  margin-right: -10px;
+  padding-top: 50px; }
+  .blogrownewsleft p {
+    margin-top: 10px; }
+  .blogrownewsleft #blogdatedayleft {
+    position: relative;
+    font: normal 130px "Lato", sans-serif;
+    color: #D3D3D3;
+    top: -14px;
+    left: -61px; }
+  .blogrownewsleft #blogdatemonthleft {
+    position: absolute;
+    font: normal 20px "Lato", sans-serif;
+    color: #8ac43f;
+    text-align: center;
+    margin-top: -86px;
+    margin-left: 42px; }
+
+.btn {
+  background: white;
+  border: 1px solid #ccc;
+  margin-right: 4px; }
+
+.icon {
+  cursor: pointer;
+  font-size: 86%;
+  margin: 8px 10px 0px 10px;
+  color: #D3D3D3; }
+
+@media only screen and (max-width: 480px) {
+  .blogpic {
+    width: 100%; }
+    .blogpic img {
+      width: 100%; }
+
+  #blogdatedayleft {
+    margin-left: 25%;
+    margin-top: 20px; }
+
+  .row {
+    padding: 0px;
+    margin: 0px; }
+
+  .iconspan .blogrighticons {
+    margin-top: -0px;
+    margin-left: -22px; } }
+@media only screen and (min-width: 481px) and (max-width: 1365px) {
+  .blogpic {
+    width: 75%;
+    margin: 0 auto; }
+    .blogpic img {
+      width: 100%; }
+
+  #blogdatedayleft {
+    margin-left: 20px;
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

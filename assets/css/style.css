@@ -98,11 +98,29 @@
   margin-bottom: 30px; }
   .shopSidebar .bigBlock img {
     height: 280px;
-    width: 100%; }
+    width: 100%;
+    margin-top: 40px; }
   .shopSidebar .bigBlock h6 {
     margin-top: -100px;
     font-size: 18px;
     color: black; }
+  .shopSidebar .bigBlock .new {
+    width: 40px;
+    height: 40px;
+    background: #8CF238;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    position: absolute;
+    margin: 5px;
+    font-weight: bold;
+    padding: 8px 4px 0px 4px;
+    float: right; }
+  .shopSidebar .bigBlock .eye {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 10px; }
   .shopSidebar .bigBlock button {
     background: lightgray;
     width: 100%;

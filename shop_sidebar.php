@@ -150,6 +150,7 @@
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <div  class="bigBlock">
+            <div class="eye"><i class="fa fa-2x fa-eye" aria-hidden="true"></i></div>
             <a href="#">
                 <img class="center-block img-responsive"  src="images/_slider.jpg">
             </a>
@@ -160,9 +161,11 @@
           </div>
            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <div  class="bigBlock">
+              <span class="new pull-xs-right pull-sm-right pull-md-right pull-lg-right">NEW</span>
             <a href="#">
                 <img class="center-block img-responsive"  src="images/_slider.jpg">
             </a>
+                
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center text-muted">$45.00</p>
                 <button type="button" class="btn btn-default">ADD TO CARD</button>

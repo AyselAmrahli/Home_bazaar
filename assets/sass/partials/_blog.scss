@@ -3,11 +3,6 @@ $textcenter:center;
 $gr:#8ac43f;
 $gy:#D3D3D3;
 
-body{
-	margin:0px;
-	padding:0px;
-}
-
 .ourrow{
 	h1{
 	text-align:$textcenter;
@@ -30,9 +25,6 @@ body{
 .rowcol{
 	margin:0;
 	}
-.row {
-	margin:0;
-}
 .rownewsleft{
 	cursor:pointer;
 	text-align: justify;

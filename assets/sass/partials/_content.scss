@@ -2,16 +2,24 @@
 /************    Murad styles ;)     ************/
 /************************************************/
 
+body { font-family: 'Lato-Regular'; }
+
 a:hover { text-decoration: none; }
 
 $color-white: #fff;
 $color-green: #80a05d;
+$color-red: #d5240c;
+$color-red: #d5240c;
 $color-2b2b2b: #2b2b2b;
 $color-949494: #949494;
 $color-f1f1f1: #f1f1f1;
+$color-1f1f1f: #1f1f1f;
 $color-80a05d: #80a05d;
 $color-b1b1b1: #b1b1b1;
 $color-3b3b3b: #3b3b3b;
+$color-696969: #696969;
+$color-878787: #878787;
+$color-777777: #777777;
 
 /* Helper classes */
 .bg-white { background-color: $color-white }
@@ -21,13 +29,17 @@ $color-3b3b3b: #3b3b3b;
 
 .color-white { color: $color-white }
 .color-green { color: $color-green }
+.color-red { color: $color-red }
 .color-2b2b2b { color: $color-2b2b2b }
 .color-949494 { color: $color-949494 }
 .color-3b3b3b { color: $color-3b3b3b }
-//.color-f1f1f1 { color: $color-f1f1f1 }
+.color-1f1f1f { color: $color-1f1f1f }
+.color-878787 { color: $color-878787 }
+.color-777777 { color: $color-777777 }
 
 .txt-center { text-align: center }
 .txt-upper { text-transform: uppercase }
+.txt-lower { text-transform: lowercase }
 
 
 $gutter-height: 10;
@@ -40,6 +52,7 @@ $gutter-height: 10;
 .m-b-1 { margin-bottom: ($gutter-height * 1) + px }
 .m-b-2 { margin-bottom: ($gutter-height * 2) + px }
 .m-b-3 { margin-bottom: ($gutter-height * 3) + px }
+.m-b-8 { margin-bottom: ($gutter-height * 8) + px }
 
 .p-t-9 { padding-top: ($gutter-height * 9) + px }
 .p-t-11 { padding-top: ($gutter-height * 11) + px }
@@ -56,8 +69,17 @@ $gutter-height: 10;
 	padding-left: 10%;
 }
 
+.side-padding {
+	padding-right: 15px;
+	padding-left: 15px;	
+}
 
+
+.fs-14 { font-size: 14px; }
+.fs-15 { font-size: 15px; }
 .fs-16 { font-size: 16px; }
+.fs-36 { font-size: 36px; }
+.fs-40 { font-size: 40px; }
 
 .f-lato { font-family: $font; } // $font from header.scss
 
@@ -93,6 +115,25 @@ $gutter-height: 10;
 
 .no-radius { border-radius: 0 }
 
+.overflow-h { overflow: hidden }
+
+
+.align-center {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.breadcrumb {
+	li {
+		@extend .fs-14;
+		color: $color-696969;
+	}
+}
+
 
 /************************************************/
 /************ Bootstrap reset styles ************/
@@ -118,6 +159,31 @@ $gutter-height: 10;
 }
 
 .thumbnail .caption h3 { @extend .fs-16 }
+
+
+.breadcrumb>li+li:before { content: '' }
+
+.breadcrumb .fa:before {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.breadcrumb a {
+	color: $color-696969;
+	@extend .txt-lower;
+}
+
+.nav-stacked {
+	a {
+		text-transform: none !important;
+	}
+}
+
+//.ratingicon { cursor: pointer; }
+
+/************ End of Bootstrap reset styles ************/
+/*******************************************************/
+
 
 /* Items */
 .thumbnail-addCart {

@@ -2,13 +2,13 @@
 @font-face {
   font-family: 'beyond_the_mountains';
   src: url("../../assets/fonts/beyond_the_mountains.eot");
-  src: local("Γÿ║"), url("../../assets/fonts/beyond_the_mountains.woff") format("woff"), url("../../assets/fonts/beyond_the_mountains.ttf") format("truetype"), url("../../assets/fonts/beyond_the_mountains.svg") format("svg");
+  src: local("тШ║"), url("../../assets/fonts/beyond_the_mountains.woff") format("woff"), url("../../assets/fonts/beyond_the_mountains.ttf") format("truetype"), url("../../assets/fonts/beyond_the_mountains.svg") format("svg");
   font-weight: bold;
   font-style: bold; }
 @font-face {
   font-family: 'Lato-Regular';
   src: url("../../assets/fonts/Lato-Regular.eot");
-  src: local("Γÿ║"), url("../../assets/fonts/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato-Regular.ttf") format("truetype"), url("../../assets/fonts/Lato-Regular.svg") format("svg");
+  src: local("тШ║"), url("../../assets/fonts/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato-Regular.ttf") format("truetype"), url("../../assets/fonts/Lato-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 a, a:hover {
@@ -99,6 +99,9 @@ div#myCarousel .cr-L {
 /************************************************/
 /************    Murad styles ;)     ************/
 /************************************************/
+body {
+  font-family: 'Lato-Regular'; }
+
 a:hover {
   text-decoration: none; }
 
@@ -106,17 +109,20 @@ a:hover {
 .bg-white {
   background-color: #fff; }
 
-.bg-green, .headline-green:before {
+.bg-green, .headline-green:before, .section-intro {
   background-color: #80a05d; }
 
 .bg-f1f1f1 {
   background-color: #f1f1f1; }
 
-.color-white, .thumbnail-addCart:hover a {
+.color-white, .thumbnail-addCart:hover a, .section-introText {
   color: #fff; }
 
 .color-green {
   color: #80a05d; }
+
+.color-red {
+  color: #d5240c; }
 
 .color-2b2b2b {
   color: #2b2b2b; }
@@ -127,11 +133,23 @@ a:hover {
 .color-3b3b3b {
   color: #3b3b3b; }
 
-.txt-center {
+.color-1f1f1f {
+  color: #1f1f1f; }
+
+.color-878787 {
+  color: #878787; }
+
+.color-777777 {
+  color: #777777; }
+
+.txt-center, .section-intro {
   text-align: center; }
 
-.txt-upper, .nav-tabs > li > a, .thumbnail-addCart a {
+.txt-upper, .nav-tabs > li > a, .thumbnail-addCart a, .btn-card, .section-introText {
   text-transform: uppercase; }
+
+.txt-lower, .breadcrumb a {
+  text-transform: lowercase; }
 
 .no-margin {
   margin: 0; }
@@ -154,6 +172,9 @@ a:hover {
 .m-b-3, .thumbnail-addCart {
   margin-bottom: 30px; }
 
+.m-b-8 {
+  margin-bottom: 80px; }
+
 .p-t-9 {
   padding-top: 90px; }
 
@@ -167,8 +188,24 @@ a:hover {
   padding-right: 10%;
   padding-left: 10%; }
 
+.side-padding {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.fs-14, .breadcrumb li {
+  font-size: 14px; }
+
+.fs-15 {
+  font-size: 15px; }
+
 .fs-16, .nav-tabs > li > a, .thumbnail .caption h3 {
   font-size: 16px; }
+
+.fs-36 {
+  font-size: 36px; }
+
+.fs-40, .section-introText {
+  font-size: 40px; }
 
 .f-lato {
   font-family: Lato-Regular; }
@@ -202,6 +239,20 @@ a:hover {
 .no-radius {
   border-radius: 0; }
 
+.overflow-h, .section-intro {
+  overflow: hidden; }
+
+.align-center, .section-introText {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.breadcrumb li {
+  color: #696969; }
+
 /************************************************/
 /************ Bootstrap reset styles ************/
 .nav-tabs {
@@ -221,6 +272,21 @@ a:hover {
   background-color: transparent;
   border-color: transparent; }
 
+.breadcrumb > li + li:before {
+  content: ""; }
+
+.breadcrumb .fa:before {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.breadcrumb a {
+  color: #696969; }
+
+.nav-stacked a {
+  text-transform: none !important; }
+
+/************ End of Bootstrap reset styles ************/
+/*******************************************************/
 /* Items */
 .thumbnail-addCart {
   min-height: 45px;
@@ -238,10 +304,6 @@ a:hover {
     padding-top: 40px;
     padding-bottom: 40px; }
 
-body {
-  margin: 0px;
-  padding: 0px; }
-
 .ourrow h1 {
   text-align: center;
   padding-top: 70px;
@@ -258,9 +320,6 @@ body {
     width: 445px; }
 
 .rowcol {
-  margin: 0; }
-
-.row {
   margin: 0; }
 
 .rownewsleft {
@@ -422,7 +481,8 @@ body {
   border: 1px solid #f1f1f1; }
 
 .btn-card:hover {
-  background-color: #8ac43f; }
+  background-color: #8ac43f;
+  color: #fff; }
 
 #new_arrivals {
   font-family: 'Lato', sans-serif; }
@@ -531,10 +591,16 @@ body {
   #video .embed-responsive-4by3 {
     padding-bottom: 25%; }
 
+.h-290, .section-intro {
+  height: 290px; }
+
+.section-introText {
+  height: 70px; }
+
 @font-face {
   font-family: 'Lato-Regular';
   src: url("../../assets/fonts/Lato-Regular.eot");
-  src: local("Γÿ║"), url("../../assets/fonts/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato-Regular.ttf") format("truetype"), url("../../assets/fonts/Lato-Regular.svg") format("svg");
+  src: local("тШ║"), url("../../assets/fonts/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato-Regular.ttf") format("truetype"), url("../../assets/fonts/Lato-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 @media screen and (max-width: 520px) {

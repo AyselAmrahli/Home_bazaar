@@ -6,9 +6,11 @@
 	background: $color-f1f1f1;
 	border-radius: 0;
 	border: 1px solid $color-f1f1f1;
+	@extend .txt-upper;
 }
 .btn-card:hover{
 	background-color: #8ac43f;
+	color: $color-white;
 }
 #new_arrivals{
 	font-family: 'Lato', sans-serif;

@@ -39,8 +39,19 @@
 			item: 8,
 			// slideMove: 1,
 			// controls: true,
-		}); 
+		});
+
+	$("#stars-default").rating('create', {
+		coloron:'#ffd24d',
+		cursor: 'pointer',
+		coloroff: '#dddddd',
+		size: '16px',
+		onClick:function() {
+			console.log( this.attr('data-rating') );
+		}
+	} );
 });
+
 
 
 

@@ -523,6 +523,8 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- slider plugin -->
      <script src="assets/js/lightslider.js"></script>
+    <!-- Rating plugin -->
+    <script src="assets/js/rating.js"></script>
     <!-- Main js -->
     <script src="assets/js/main.js"></script>
   </body>

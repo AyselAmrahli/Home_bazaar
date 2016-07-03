@@ -81,53 +81,8 @@ $blogBcgColor: #f5f5f5;
         .blogPageMainText{
         	img{
         		width:100px; 
-        		height: 100px 
+        		height: 100px; 
         	}
         }
 
 
-        .blogComm{
-        	padding-right:0px;
-        	p{
-        		background-color:$blogBcgColor; 
-        		padding: 15px;
-        	}
-        	a {
-        		color: $blogMainColor;
-        	}
-        }
-
-        .blogPageShare{
-           	h5{
-	            text-shadow: none;
-	            color:$blogMainColor;
-          	}
-
-			.iconDiv {
-				padding:0px;
-		    }  
-		}
-
-        input,textarea{
-            display: block;
-            width: 100%;
-            margin-bottom: 10px;
-            padding: 10px; 
-            border:none;
-            background-color: $blogBcgColor;
-        }
-
-        textarea:focus, input:focus{
-            outline: none;
-        }
-
-        .blogCommSend{
-          	margin-top: 10px;
-          	background-color:$blogMainColor;
-          	padding: 10px 40px 10px 40px;
-          	color:#fff;
-        }
-
-        a .blogCommSend:hover{
-          	color:#fff;
-        }

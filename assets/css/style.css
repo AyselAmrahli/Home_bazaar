@@ -853,38 +853,4 @@ h1, h2, h3, h4, h5, h6 {
   width: 100px;
   height: 100px; }
 
-.blogComm {
-  padding-right: 0px; }
-  .blogComm p {
-    background-color: #f5f5f5;
-    padding: 15px; }
-  .blogComm a {
-    color: #81A05D; }
-
-.blogPageShare h5 {
-  text-shadow: none;
-  color: #81A05D; }
-.blogPageShare .iconDiv {
-  padding: 0px; }
-
-input, textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  border: none;
-  background-color: #f5f5f5; }
-
-textarea:focus, input:focus {
-  outline: none; }
-
-.blogCommSend {
-  margin-top: 10px;
-  background-color: #81A05D;
-  padding: 10px 40px 10px 40px;
-  color: #fff; }
-
-a .blogCommSend:hover {
-  color: #fff; }
-
 /*# sourceMappingURL=style.css.map */

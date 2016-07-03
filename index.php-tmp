@@ -35,9 +35,9 @@
             <li><a href="#">ENG</a></li>
             <li><a href="#">AZ</a></li>
             <li><a href="#">WISHLIST</a></li>
-          </ul> 
+          </ul>
         </div>
-      
+
         <div class="logo">
           <a href="#"><img src="images/Home-bazaar-logo.png"  style="width:200px;"></a>
         </div>
@@ -60,7 +60,7 @@
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">DETOX LIFE</a></li>
                 <li><a href="#">HOME DECOR</a></li>
-                
+
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ORGANIZATION <span class="glyphicon glyphicon-menu-down"></span></a>
                   <ul class="dropdown-menu dropOrg">
@@ -69,7 +69,7 @@
                     <li><a href="#">JEWELLERY</a></li>
                   </ul>
                 </li>
-                
+
                 <li><a href="#">TEXTILE</a></li>
                 <li><a href="#">KITCHEN GADGETS</a></li>
                 <li><a href="#">KIDS</a></li>
@@ -131,7 +131,7 @@
     </div>
 
       <!-- Rüfət:  end -->
-    
+
       <!-- Murad: start -->
      <div class="bg-white padding-section">
         <div class="container">
@@ -192,8 +192,8 @@
               <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div class="row">
-                  <?php for ($i=0; $i < 4; $i++) : ?>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 m-b-3">
+<?php for ($i = 0; $i < 4; $i++):?>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 m-b-3">
                       <div class="thumbnail no-margin no-radius">
                         <a href="#" class="display-b">
                           <img src="images/_slider.jpg" alt="">
@@ -209,8 +209,8 @@
                           <a href="#" class="f-lato btn-card btn btn-block no-radius color-2b2b2b">Add to card</a>
                         </span>
                     </div>
-                  <?php endfor ?>
-                  </div> <!-- end of .row -->
+<?php endfor?>
+</div> <!-- end of .row -->
                 </div> <!-- end of .col-lg-6 main first -->
 
 
@@ -245,7 +245,7 @@
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-             <div class="gift clearfix m-b-2"> 
+             <div class="gift clearfix m-b-2">
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <a href="#">
                 <img class="center-block img-responsive" src="images/plant1.jpg">
@@ -253,7 +253,7 @@
               </div>
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <h2 class="text-left">
-                MORE THAN <br> A GIFT.<br>IT'S  <span>LOVE</span>. 
+                MORE THAN <br> A GIFT.<br>IT'S  <span>LOVE</span>.
                 </h2>
                     <p><a class="text-left headline headline-green" href="#">VIEW MORE</a></p>
               </div>
@@ -295,10 +295,10 @@
           </div>
           <div class=" col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div class="lil_arrival">
-               <span class="pull-right" id="hot1">HOT</span>  
+               <span class="pull-right" id="hot1">HOT</span>
                 <a href="#">
                  <img class="center-block img-responsive"  src="images/travelcase4.jpg">
-                </a>            
+                </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
                 <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
@@ -312,7 +312,7 @@
               <h6 class="text-center">Small cactus variety pot<br> from France</h6>
               <p class="text-center">$45.00</p>
               <button type="button" class="btn btn-default btn-block btn-card">ADD TO CARD</button>
-            </div> 
+            </div>
           </div>
           <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
             <div class="lil_arrival">
@@ -329,13 +329,13 @@
       </section>
       <section id="video">
         <div class="embed-responsive embed-responsive-4by3">
-        
+
           <iframe style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/GswHmpwy24A?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="row">
-         <h1>Fruit Infused Water Bottles</h1> 
+         <h1>Fruit Infused Water Bottles</h1>
         </div>
-        
+
       </section>
       <!-- Gunel:  end -->
 
@@ -346,8 +346,8 @@
                       <h1><b>FROM OUR BLOG<b></h1>
                    </div>
 
-    <div class="row rowcol"> 
-    <div class="col-md-5 col-md-offset-1"> 
+    <div class="row rowcol">
+    <div class="col-md-5 col-md-offset-1">
           <div class="ourcol"><img src="images/IMG_20160517_234110_-1704803325.jpg"></div>
            <div class="row rownewsleft">
             <div class="col-md-3">
@@ -363,7 +363,7 @@
                   quis nostrud exeint occaecat cupidatat non
                   proident, sunt anim id est laborum.</p>
                   </div>
-           
+
             </div>
             </div>
             </div>
@@ -385,7 +385,7 @@
               </div>
               </div>
               </div>
-      
+
     </div>
     </div>
     </div>
@@ -400,7 +400,7 @@
 
 
   <div id="instafotos">
-  
+
        <ul id="lightSlider">
         <li data-thumb="images/IMG_20160524_145055_-1147962981.jpg">
             <img src="images/IMG_20160524_145055_-1147962981.jpg" />
@@ -420,7 +420,7 @@
         <li data-thumb="images/IMG_20160527_144854_747487239.jpg">
             <img src="images/IMG_20160527_144854_747487239.jpg" />
         </li>
-      
+
         <li data-thumb="images/IMG_20160524_145055_-1147962981.jpg">
             <img src="images/IMG_20160524_145055_-1147962981.jpg" />
         </li>
@@ -436,7 +436,7 @@
         <li data-thumb="images/plant1.jpg">
             <img src="images/plant1.jpg" />
         </li>
-       
+
           <li data-thumb="images/angel.jpg">
             <img src="images/angel.jpg" />
         </li>
@@ -446,13 +446,13 @@
         <li data-thumb="images/kidsinfuser.jpg">
             <img src="images/kidsinfuser.jpg" />
         </li>
-       
-    
+
+
     </ul>
-                
- 
-          
-      
+
+
+
+
    </div>
 
     <div class="row ">
@@ -460,7 +460,7 @@
           <div class="natural"><b>HOME BAZAAR</b></div>
         </div>
     </div>
-   </div> 
+   </div>
 </div>
 </div>
 

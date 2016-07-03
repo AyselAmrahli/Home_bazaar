@@ -102,7 +102,8 @@
       <hr>
 
     <div class="fb" style="margin:0 auto;">
-      <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"  data-width="1160px;">
+      <!-- <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"  data-width="1160px;"> -->
+      <div class="fb-comments" data-href="#" data-numposts="5"  data-width="1160px;">
       </div>
       <div id="fb-root"></div>
       <script>(function(d, s, id) {

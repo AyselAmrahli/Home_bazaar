@@ -43,7 +43,7 @@
       </div>
 
       <div class="row blogSnTitle">
-        <h2>Zorka Men Spring/Summer Vacation</h2>
+        <h2 class="blogPageSnTitle">Zorka Men Spring/Summer Vacation</h2>
       </div>
 
       <div class="row blogPageSnTitleIcons">
@@ -76,7 +76,7 @@
       <div class="row blogPageShare">
         <div class="col-md-7">
           <div class="col-md-2 iconDiv">
-            <h5>SHARE THIS:</h5>
+            <h5 class="blogPageSnTitle">SHARE THIS:</h5>
           </div>
           <div class="col-md-1 iconDiv"><i class="fa fa-facebook" aria-hidden="true"></i></div>
           <div class="col-md-1 iconDiv"><i class="fa fa-twitter" aria-hidden="true"></i></div>
@@ -91,7 +91,7 @@
       <div class="row blogPageMainText">
         <div class="col-md-2 text-center">
           <img src="11.jpg" alt="">
-          <h5>ANNA PANDORA</h5>
+          <h5 class="blogPageSnTitle">ANNA PANDORA</h5>
           <p>Stylist</p>
         </div>
         <div class="col-md-10 blogComm">
@@ -99,76 +99,23 @@
         </div>
       </div>
 
-      <div class="row">
-        <h3>5 Comments</h3>
-      </div>
-
       <hr>
 
-      <div class="row com">
-        <div class="col-md-1"><img src="11.jpg" alt="" style="width:60px; height: 60px"></div>
-        <div class="col-md-11 blogComm">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore architecto beatae officiis iure non aut facere velit vitae vero ratione incidunt dicta obcaecati eos quibusdam tenetur aliquid commodi odio, natus!</p>
-          <div class="pull-left"><h5>Lorem Person</h5></div>
-          <div class="pull-right"><i class="fa fa-clock-o" aria-hidden="true">
-            </i> 20 April,2016 <a href="#">REPLY</a>
-          </div>
-        </div>
-
-        <div class="col-md-offset-1 col-md-11 Comments">
-          
-          <hr>
-
-          <div class="col-md-1"><img src="11.jpg" alt="" style="width:60px; height: 60px"></div>
-          
-          <div class="col-md-11 blogComm">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque officiis ullam laudantium quis quia ut odio sunt, tempora id iusto. Amet quo fugit nihil cupiditate qui rerum, et molestias, harum.</p>
-            
-            <div class="pull-left">
-              <h5>Lorem Person</h5>
-            </div>
-            
-            <div class="pull-right"><i class="fa fa-clock-o" aria-hidden="true">
-              </i> 20 April,2016 <a href="#">REPLY</a>
-            </div>
-          </div>
-          
-          <br>
-
-          <div class="col-md-1">
-            <img src="11.jpg" alt="" style="width:60px; height: 60px">
-          </div>
-          <div class="col-md-11 blogComm">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque officiis ullam laudantium quis quia ut odio sunt, tempora id iusto. Amet quo fugit nihil cupiditate qui rerum, et molestias, harum.</p>
-            <div class="pull-left">
-              <h5>Lorem Person</h5>
-            </div>
-            <div class="pull-right"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 April,2016 <a href="#">REPLY</a></div>
-          </div>
-          
-        </div>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/az_AZ/sdk.js#xfbml=1&version=v2.6";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
 
-
-      </div>
-      <hr>
-
-      <div class="row blogPageInputs">
-        <h4>Leave a comment</h4>
-        <br>
-        <div class="col-md-1"><img class="img-circle" src="11.jpg" alt="" style="width:60px; height: 60px"></div>
-        <div class="col-md-11" style="padding-right:0px;">
-          <form action="">
-            <textarea name="" id="" cols="30" rows="6" placeholder="Your Comment"></textarea>
-            <input type="text" placeholder="Your Name*">
-            <input type="text" placeholder="Your Email*">
-            <a class="blogCommSend" href="#">SEND US</a>
-          </form>
-        </div>
-
-      </div>
+      <div class="fb-comments" data-href="https://www.facebook.com/zuck/posts/10101828640656261" data-width="1160px" data-numposts="5"></div>
     </div>
     
+  
+  
 
 
   </body>

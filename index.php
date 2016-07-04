@@ -468,15 +468,15 @@
 
       <!-- Arzu: start -->
       <section class="container-fluid footer">
-    <div class="container">
+      <div class="container">
       <div class="row">
 
         <!-- About us Start -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 aboutUs">
           <p><b>ABOUT US</b></p>
           <hr/>
-          <h3> F L O W I E</h3>
-          <h4>Flowie - I appreciate all the positive feedback. It means a lot</h4>
+         <img src="images/home-bazaar-logo-white.png" alt="no image">
+          <h4>HomeBazaar - I appreciate all the positive feedback. It means a lot</h4>
           <ul>
               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -503,10 +503,10 @@
         <!-- Information End -->
 
         <!-- Subscribe Start -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 subscribe">
+        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4 subscribe">
           <p><b>SUBSCRIBE</b></p>
           <hr/>
-          <h4>&copy;Flowie Wordpress. Site by<br> Zooka.io. All Right Reserved 2015.</h4>
+          <h4>&copy;HomeBazaar. Site by<br> Tacirler. All Right Reserved 2016.</h4>
           <input type="email" class="form-control" id="subscribeText" placeholder="Your Email">
           <button class="btn btn-group" type="submit" name="subscribeText">SEND US</button>
         </div>

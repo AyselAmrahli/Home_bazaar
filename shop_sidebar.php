@@ -20,31 +20,35 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="https://rawgit.com/zhangtasdq/range-picker/master/dist/css/range-picker.min.css">
   </head>
   <body>
 
      <!-- Shop SideBar page start -->
 
     <!-- green blog start-->
-<section class="shopSidebar ">
+ <!-- green blog start-->
+<section class="shopSidebar">
 
-    <div class="blog">
-        <div class="shopSidebarBg"></div>
-        <img src="images/_slider2.jpg">
-        <h4 style="color: white; font-weight: bold;">SHOP</h4>
-    </div>
+     <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 green_contact">
+            <h1>SHOP</h1>
+          </div>
+        </div>
+      </div>
     <!-- green blog end -->
 
-    <div class="shopBottom">
-     <!-- Page location start -->
-        <div class="container-fluid">
-            <div class="container labelPart">
-              <h5>home</h5>
-              <h5 class="fa fa-angle-right" aria-hidden="true"></h5>
-              <h5>about us</h5>
-            </div>
-        </div>
-     <!-- Page Location end -->
+   <div class="container">
+        <div class="row">
+          <div class="navbar-contact">
+            <ul class="nav navbar-nav">
+              <li><a href="index.php">home</a></li>
+              <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+              <li><a href="#">shop sidebar</a></li>
+            </ul>
+          </div>
+      </div>
     </div>
 
     <hr>
@@ -53,14 +57,6 @@
      <!-- Showing Results line start -->   
             <div class="showingResults">
               <h5>SHOWING 1-9 OF 100 RESULTS</h5>
-               <H6 class="dropdown">
-                  <p href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black;">DEFAULT SORTING <span class="glyphicon glyphicon-menu-down"></span></p>
-                  <ul class="dropdown-menu dropOrg">
-                    <li>First</li>
-                    <li>Second</li>
-                    <li>Third</li>
-                  </ul>
-                </H6>
             </div>
 
             
@@ -77,12 +73,12 @@
           <div class=" col-xs-11 col-sm-6 col-md-12 col-lg-12">
             <div class="filter">
                 <h3 class="text-center">FILTER</h3>
-                <progress class="text-center progress progress-success" value="75" max="100">75%</progress>
-                <span class="pull-md-left pull-lg-left">PRICE: 12$-100$</span>
+                <div id="double_number_range" data-min="25" data-max="2541" ></div>
+                 <h5 class="pull-md-left pull-lg-left">PRICE: 12$-100$</h5>
                 <button type="button" class="btn btn-secondary">Filter</button>
             </div>
           </div>
-
+        
           <div class=" col-xs-11 col-sm-6 col-md-12 col-lg-12">
               <div class="social">
                   <ul>
@@ -236,7 +232,22 @@
 </section>
 
 
-    <!-- Shop SideBar page end
+  <!-- Shop SideBar page end -->
 
   </body>
   </html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://rawgit.com/zhangtasdq/range-picker/master/dist/js/range_picker.min.js"></script>
+
+  <script>
+  var min = $("#double_number_range").data('min');
+  var max = $("#double_number_range").data('max');
+     $("#double_number_range").rangepicker({
+        type: "double",
+        startValue: min ,
+        endValue: max ,
+        translateSelectLabel: function(currentPosition, totalPosition) {
+            return parseInt(100 * (currentPosition / totalPosition));
+        }
+    });
+  </script>

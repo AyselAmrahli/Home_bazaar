@@ -22,8 +22,9 @@
    <!--  <![endif]
   </head> -->
   <body>
-
-  <div class="row">
+ 
+ <section id="bloglist">
+   <div class="classrow">
     <div class="blog"><h2>BLOG</h2></div>
   </div>
 <div class="container">
@@ -31,9 +32,9 @@
           <div class="iconspan">
               <div class="col-md-3 col-md-offset-1 col-xs-6 col-sm-12">
              
-                    <span><a href="#">home</a></span>
+                    <span><a href="index.php">home</a></span>
                     <span class="glyphicon glyphicon-chevron-right icon"></span>
-                    <span><a href="#">about us</a></span>
+                    <span><a href="#">blog</a></span>
 
               </div>
                 
@@ -44,19 +45,20 @@
                     
                 </div>
             </div> -->
+            </div>
           </div>
       </div>
-       </div>
+      
       <hr>
 
       <div class="container">
       <div class="row">
       <div class="blogmarginpictures">
         <div class="col-md-5 col-md-offset-1 col-xs-12 col-sm-12">
-          <div class="blogpic"><img src="images/coaster.jpg"></div>
+          <div class="blogpic"><a href="blog_single.php"><img class="img-responsive" src="images/coaster.jpg"></a></div>
         </div>
 
-              <div class="col-md-5 col-xs-12 col-sm-12"> 
+              <div class="col-md-5 col-xs-12 col-sm-12 col-md-offset-1"> 
                 <div class="row blogrownewsleft">
                   <div class="col-md-3 col-xs-12 col-sm-4">
                       <div id="blogdatedayleft"><b>12</b>
@@ -84,10 +86,10 @@
       <div class="row">
       <div class="blogmarginpictures">
         <div class="col-md-5 col-md-offset-1 col-xs-12 col-sm-12">
-          <div class="blogpic"><img src="images/IMG_20160409_201802_1690742545.jpg"></div>
+          <div class="blogpic"><a href="blog_single.php"><img class="img-responsive" src="images/IMG_20160409_201802_1690742545.jpg"></a></div>
         </div>
 
-              <div class="col-md-5 col-xs-12 col-sm-12"> 
+              <div class="col-md-5 col-xs-12 col-sm-12 col-md-offset-1"> 
                 <div class="row blogrownewsleft">
                   <div class="col-md-3 col-xs-12 col-sm-4">
                       <div id="blogdatedayleft"><b>12</b>
@@ -117,10 +119,10 @@
       <div class="row">
       <div class="blogmarginpictures">
         <div class="col-md-5 col-md-offset-1 col-xs-12 col-sm-12">
-          <div class="blogpic"><img src="images/IMG_20160409_201802_1690742545.jpg"></div>
+          <div class="blogpic"><img class="img-responsive" src="images/IMG_20160409_201802_1690742545.jpg"></div>
         </div>
 
-              <div class="col-md-5 col-xs-12 col-sm-12"> 
+              <div class="col-md-5 col-xs-12 col-sm-12 col-md-offset-1"> 
                 <div class="row blogrownewsleft">
                   <div class="col-md-3 col-xs-12 col-sm-4">
                       <div id="blogdatedayleft"><b>12</b>
@@ -146,10 +148,10 @@
          <div class="row">
       <div class="blogmarginpictures">
         <div class="col-md-5 col-md-offset-1 col-xs-12 col-sm-12">
-          <div class="blogpic"><img src="images/IMG_20160525_102358_105774757.jpg"></div>
+          <div class="blogpic"><a href="blog_single.php"><img class="img-responsive" src="images/coaster.jpg"></a></div>
         </div>
 
-              <div class="col-md-5 col-xs-12 col-sm-12"> 
+              <div class="col-md-5 col-xs-12 col-sm-12 col-md-offset-1"> 
                 <div class="row blogrownewsleft">
                   <div class="col-md-3 col-xs-12 col-sm-4">
                       <div id="blogdatedayleft"><b>12</b>
@@ -175,10 +177,10 @@
       <div class="row">
       <div class="blogmarginpictures">
         <div class="col-md-5 col-md-offset-1 col-xs-12 col-sm-12">
-          <div class="blogpic"><img src="images/kidsinfuser.jpg"></div>
+          <div class="blogpic"><a href="blog_single.php"><img class="img-responsive" src="images/coaster.jpg"></a></div>
         </div>
 
-              <div class="col-md-5 col-xs-12 col-sm-12"> 
+              <div class="col-md-5 col-xs-12 col-sm-12 col-md-offset-1"> 
                 <div class="row blogrownewsleft">
                   <div class="col-md-3 col-xs-12 col-sm-4">
                       <div id="blogdatedayleft"><b>12</b>
@@ -210,7 +212,7 @@
         <div class="col-md-4 col-md-offset-8 col-xs-12 col-sm-12">
           <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-secondary">1</button>
-            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
             <button type="button" class="btn btn-secondary">3</button>
             <button type="button" class="btn btn-secondary">4</button>
             <button type="button" class="btn btn-secondary">5</button>
@@ -223,6 +225,7 @@
 
 
  </div>
+ </section>
 
   </body>
   </html>

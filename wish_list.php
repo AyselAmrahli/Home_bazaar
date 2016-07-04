@@ -47,9 +47,6 @@
             </ul>
           </div>
       </div>
-
-  
-     <!-- Showing Results line end -->
     </div>
 
     <div class="container">  <hr>

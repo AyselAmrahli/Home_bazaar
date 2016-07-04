@@ -34,7 +34,7 @@
         <div class="row">
           <div class="navbar-contact">
             <ul class="nav navbar-nav">
-              <li><a href="#">home</a></li>
+              <li><a href="index.php">home</a></li>
               <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
               <li><a href="#">contact</a></li>
             </ul>
@@ -72,7 +72,9 @@
       <div class="row text-center">
         <p class="contactGray">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
       </div>
-      <form class="text-center">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="row text-center">
+          <form class="text-center">
         <div class="form-group text-center">
           <label  for="contactName">Your Name</label>
           <input type="text" class="form-control" id="contactName">
@@ -87,6 +89,9 @@
         </div>
         <button type="submit" class="btn  btn-lg">Submit</button>
       </form>
+        </div>
+      </div>
+      
       </div>
   </section>
   </body>

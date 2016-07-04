@@ -34,7 +34,7 @@
           <ul class="list-inline col-md-6 text-center">
             <li><a href="#">ENG</a></li>
             <li><a href="#">AZ</a></li>
-            <li><a href="#">WISHLIST</a></li>
+            <li><a href="wish_list.php">WISHLIST</a></li>
           </ul> 
         </div>
       
@@ -74,8 +74,8 @@
                 <li><a href="#">KITCHEN GADGETS</a></li>
                 <li><a href="#">KIDS</a></li>
                 <li><a href="#">MEN</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="blog_list.php">BLOG</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
                 <li><a href="#"><i class="fa fa-2x fa-cart-plus" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-2x fa-search" aria-hidden="true"></i></a></li>
               </ul>
@@ -142,30 +142,30 @@
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="#" class="display-b color-2b2b2b">
+                <a href="about_us.php" class="display-b color-2b2b2b">
                   <img src="images/_slider.jpg" class="img-responsive" alt="">
 
-                  <figcaption class="txt-upper m-t-2">How we are?</figcaption>
+                  <figcaption class="txt-upper m-t-2">About us</figcaption>
                 </a>
               </figure>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="#" class="display-b color-2b2b2b">
+                <a href="offers.php" class="display-b color-2b2b2b">
                   <img src="images/_slider.jpg" class="img-responsive" alt="">
 
-                  <figcaption class="txt-upper m-t-2">How we work?</figcaption>
+                  <figcaption class="txt-upper m-t-2">Offers</figcaption>
                 </a>
               </figure>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 m-b-2">
               <figure>
-                <a href="#" class="display-b color-2b2b2b">
+                <a href="delivery.php" class="display-b color-2b2b2b">
                   <img src="images/_slider.jpg" class="img-responsive" alt="">
 
-                  <figcaption class="txt-upper m-t-2">About our products</figcaption>
+                  <figcaption class="txt-upper m-t-2">Ödəniş və Çatdırılma</figcaption>
                 </a>
               </figure>
             </div>
@@ -241,7 +241,7 @@
       <section id="new_arrivals">
         <div class="container">
           <div class="row text-center">
-            <h4>NEW ARRIVALS</h4>
+            <h2>NEW ARRIVALS</h2>
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -328,13 +328,14 @@
         </div>
       </section>
       <section id="video">
-        <div class="embed-responsive embed-responsive-4by3">
+      <div id="youtubeden"></div>
+        <!-- <div class="embed-responsive embed-responsive-4by3">
         
-          <iframe style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/GswHmpwy24A?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="row">
+          <iframe id="ytplayer" style="width: 100%; height: 350px;" src="https://www.youtube.com/embed/GswHmpwy24A?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div> -->
+       <!--  <div class="row">
          <h1>Fruit Infused Water Bottles</h1> 
-        </div>
+        </div> -->
         
       </section>
       <!-- Gunel:  end -->
@@ -343,12 +344,12 @@
  <div class="container fluid">
             <div class="container">
                    <div class="row ourrow">
-                      <h1><b>FROM OUR BLOG<b></h1>
+                      <h2 class="text-center">FROM OUR BLOG</h2>
                    </div>
 
     <div class="row rowcol"> 
     <div class="col-md-5 col-md-offset-1"> 
-          <div class="ourcol"><img src="images/IMG_20160517_234110_-1704803325.jpg"></div>
+          <div class="ourcol"><a href="blog_list.php"><img class="img-responsive" src="images/IMG_20160517_234110_-1704803325.jpg"></a></div>
            <div class="row rownewsleft">
             <div class="col-md-3">
               <div id="datedayleft"><b>12</b>
@@ -368,7 +369,7 @@
             </div>
             </div>
     <div class="col-md-5">
-    <div class="ourcol"><img src="images/plant1.jpg"></div>
+    <div class="ourcol"><a href="blog_list.php"><img class="img-responsive" src="images/plant1.jpg"></a></div>
             <div class="row rownewsright">
               <div class="col-md-3">
                 <div id="datedayright"><b>23</b>
@@ -390,8 +391,9 @@
     </div>
     </div>
     </div>
-
-      <div class="hidden-xs">
+  
+  <div class="classrow">   
+  <div class="hidden-xs">
     <div class="row ">
         <div class="col-md-2 col-md-offset-2 ">
           <div class="followinsta">FOLLOW US ON INSTAGRAM</div>
@@ -463,7 +465,7 @@
    </div> 
 </div>
 </div>
-
+</div>
       <!-- Aysel:  end -->
 
       <!-- Arzu: start -->
@@ -475,7 +477,9 @@
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 aboutUs">
           <p><b>ABOUT US</b></p>
           <hr/>
-         <img src="images/home-bazaar-logo-white.png" alt="no image">
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="images/home-bazaar-logo-white.png" alt="no image">
+         </div>
           <h4>HomeBazaar - I appreciate all the positive feedback. It means a lot</h4>
           <ul>
               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -493,7 +497,7 @@
           <hr/>
           <ul>
             <li><a href="#">Shipping & Policies</a></li>
-            <li><a href="#">Delivery</a></li>
+            <li><a href="delivery.php">Delivery</a></li>
             <li><a href="#">My Account</a></li>
             <li><a href="#">Asked Questions</a></li>
             <li><a href="#">Browse Products</a></li>
@@ -525,5 +529,10 @@
      <script src="assets/js/lightslider.js"></script>
     <!-- Main js -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+     
+
+    </script> 
   </body>
 </html>

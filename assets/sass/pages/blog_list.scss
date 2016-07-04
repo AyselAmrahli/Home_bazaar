@@ -1,8 +1,13 @@
 $ayselfont:'Lato', sans-serif;
-$ayselgreen:#81A05D;
+$ayselgreen:#8ac43f;
 $ayselwhite:#fff;
 $ayselgray:#D3D3D3;
 
+
+body{
+	margin:0px;
+	padding:0px;
+}
 
 .blog{
 	height: 150px;
@@ -12,6 +17,7 @@ $ayselgray:#D3D3D3;
 	cursor:pointer;
 	color: $ayselwhite;
 	padding-top: 38px;
+
 
 }
 .iconspan{
@@ -56,14 +62,8 @@ $ayselgray:#D3D3D3;
 }
 .blogpic{
 	cursor:pointer;
-	height: 210px;
-	width: 400px;
 	margin-bottom: 50px;
-	img{
-		height: 210px;
-	    width: 400px;
 
-	}
 }
 
 .blogrownewsleft{
@@ -76,6 +76,7 @@ $ayselgray:#D3D3D3;
 	p{
 		margin-top:10px;
 	}
+	margin-top:13px;
 	
 	#blogdatedayleft{
 	    position:relative;

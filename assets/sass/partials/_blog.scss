@@ -7,15 +7,14 @@ body{
 	margin:0px;
 	padding:0px;
 }
+.classrow{
+.row{
 
-.ourrow{
-	h1{
-	text-align:$textcenter;
-	padding-top: 70px;
-	padding-bottom: 50px;
-	cursor:pointer;
-	}
+	padding:0px;
+	margin:0px;
 }
+}
+
 .ourcol{
 	cursor:pointer;
 	height:225px;
@@ -26,13 +25,12 @@ body{
 	width:445px;
 
 	}
+	margin-bottom:40px;
 	}
 .rowcol{
 	margin:0;
 	}
-// .row {
-// 	margin:0;
-// }
+
 .rownewsleft{
 	cursor:pointer;
 	text-align: justify;
@@ -49,9 +47,10 @@ body{
 	cursor:pointer;
 	text-align: justify;
     padding: 20px;
-    margin-top: -30px;
+    // margin-top: -30px;
     
-    margin-right: -42px;
+    // margin-right: -42px;
+    margin: -30px -42px 50px 0px;
     font-family: $font;
 	p{
 		margin-top:20px;
@@ -66,12 +65,12 @@ body{
    
 }
 #datemonthleft{
-    position:absolute;;
-	font: normal 20px $font;
-	color:$gr;	
-	text-align:$textcenter;
-	margin-top:-71px;
-	margin-left:28px;
+    position: absolute;
+    top: 54px;
+    left: 27px;
+    font: normal 20px "Lato", sans-serif;
+    color: #8ac43f;
+    text-align: center;
 
 }
 #datedayright{
@@ -95,7 +94,7 @@ body{
 #instafotos{
     img{
     	height:165px;
-    	width:169px;
+    	width:215px;
 	}
     position: relative;
     width:100%;

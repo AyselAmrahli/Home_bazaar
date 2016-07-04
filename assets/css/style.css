@@ -18,8 +18,8 @@ a, a:hover {
 .login {
   background-color: #2B2B2B;
   font-family: Lato-Regular;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 10px;
+  padding-bottom: 5px; }
   .login a {
     text-decoration: none;
     color: #878787; }
@@ -242,17 +242,16 @@ body {
   margin: 0px;
   padding: 0px; }
 
-.ourrow h1 {
-  text-align: center;
-  padding-top: 70px;
-  padding-bottom: 50px;
-  cursor: pointer; }
+.classrow .row {
+  padding: 0px;
+  margin: 0px; }
 
 .ourcol {
   cursor: pointer;
   height: 225px;
   width: 445px;
-  margin: 20px; }
+  margin: 20px;
+  margin-bottom: 40px; }
   .ourcol img {
     height: 225px;
     width: 445px; }
@@ -275,8 +274,7 @@ body {
   cursor: pointer;
   text-align: justify;
   padding: 20px;
-  margin-top: -30px;
-  margin-right: -42px;
+  margin: -30px -42px 50px 0px;
   font-family: "Lato", sans-serif; }
   .rownewsright p {
     margin-top: 20px;
@@ -290,11 +288,11 @@ body {
 
 #datemonthleft {
   position: absolute;
+  top: 54px;
+  left: 27px;
   font: normal 20px "Lato", sans-serif;
   color: #8ac43f;
-  text-align: center;
-  margin-top: -71px;
-  margin-left: 28px; }
+  text-align: center; }
 
 #datedayright {
   position: relative;
@@ -317,7 +315,7 @@ body {
   font-family: "Lato", sans-serif; }
   #instafotos img {
     height: 165px;
-    width: 169px; }
+    width: 215px; }
   #instafotos .lSSlideOuter .lSPager.lSpg > li a {
     background-color: #3FB649; }
   #instafotos .lSSlideOuter .lSPager.lSpg > li:hover a, #instafotos .lSSlideOuter .lSPager.lSpg > li.active a {
@@ -409,10 +407,6 @@ body {
 
   #instafotos img {
     width: 115%; } }
-/*body {
-  font-family: 'Lato', sans-serif;
-  color: #333;
-}*/
 .btn-card {
   background: #f1f1f1;
   border-radius: 0;
@@ -434,13 +428,9 @@ body {
     background: #f1f1f1;
     line-height: 2;
     padding: 15px;
-    /*height: 370px;*/
-    /*width: 558px;*/
     margin-left: 11px; }
     #new_arrivals .gift img {
-      margin-top: 20px;
-      /*			width: 200px;
-      			height: 300px;*/ }
+      margin-top: 20px; }
     #new_arrivals .gift h2 {
       margin-top: 70px;
       margin-left: 40px; }
@@ -454,12 +444,9 @@ body {
         text-decoration: none; }
   #new_arrivals .lil_arrival {
     border: 1px solid #f1f1f1;
-    /*width: 265px;*/
-    /*height: 370px;*/
     position: relative;
     margin-left: 10px;
-    margin-bottom: 10px;
-    /*margin: 10px;*/ }
+    margin-bottom: 10px; }
     #new_arrivals .lil_arrival #new {
       background: #cddc39;
       border-radius: 50%;
@@ -553,8 +540,10 @@ body {
     .footer .aboutUs h4 {
       font-size: 15px; }
     .footer .aboutUs img {
-      width: 200px;
-      height: 80px; }
+      width: inherit;
+      height: inherit;
+      margin-top: -40px;
+      margin-bottom: -30px; }
     .footer .aboutUs ul {
       margin: 0 auto; }
       .footer .aboutUs ul li {
@@ -588,7 +577,7 @@ body {
 * {
   margin: 0;
   padding: 0;
-  font-family: Lato-Regular; }
+  font-family: Lato; }
 
 .blogSnTitle {
   font-family: Lato-Bold; }
@@ -609,7 +598,7 @@ body {
   position: relative;
   width: 100%;
   height: 150px;
-  background: #81A05D;
+  background: #8ac43f;
   text-align: center; }
   .green h1 {
     position: absolute;
@@ -629,7 +618,7 @@ body {
   padding-bottom: 25px; }
 
 .blogPageSnTitleIcons i {
-  color: #81A05D; }
+  color: #8ac43f; }
 .blogPageSnTitleIcons div {
   padding-left: 0px; }
 
@@ -649,11 +638,15 @@ body {
     background-color: #f5f5f5;
     padding: 15px; }
   .blogComm a {
-    color: #81A05D; }
+    color: #8ac43f; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
 
 .blog {
   height: 150px;
-  background: #81A05D;
+  background: #8ac43f;
   text-align: center;
   font-famil: "Lato", sans-serif;
   cursor: pointer;
@@ -687,16 +680,11 @@ body {
       display: inline-block;
       color: black; }
   .iconspan .righticon2 {
-    color: #81A05D; }
+    color: #8ac43f; }
 
 .blogpic {
   cursor: pointer;
-  height: 210px;
-  width: 400px;
   margin-bottom: 50px; }
-  .blogpic img {
-    height: 210px;
-    width: 400px; }
 
 .blogrownewsleft {
   cursor: pointer;
@@ -704,7 +692,8 @@ body {
   margin-top: -30px;
   font-family: "Lato", sans-serif;
   margin-right: -10px;
-  padding-top: 50px; }
+  padding-top: 50px;
+  margin-top: 13px; }
   .blogrownewsleft p {
     margin-top: 10px; }
   .blogrownewsleft #blogdatedayleft {
@@ -769,16 +758,6 @@ body {
 .height {
   height: 30px; }
 
-.container-fluid {
-  /*padding-right: 15px;
-  padding-left: 15px;*/
-  margin-right: -15px;
-  margin-left: -15px; }
-
-.row {
-  margin-right: 0;
-  margin-left: 0; }
-
 body {
   font-family: 'Lato', sans-serif;
   color: #333; }
@@ -792,7 +771,7 @@ a, .fa-chevron-right a:hover {
 
 .green_contact {
   height: 150px;
-  background: #81A05D;
+  background: #8ac43f;
   padding-top: 40px; }
 
 #contact {
@@ -814,7 +793,7 @@ a, .fa-chevron-right a:hover {
     bottom: 0;
     padding: 5px 15px; }
     #contact .contactInformation .fa {
-      color: #81A05D;
+      color: #8ac43f;
       padding: 20px; }
     #contact .contactInformation p {
       padding-bottom: 15px;
@@ -831,10 +810,14 @@ a, .fa-chevron-right a:hover {
   #contact button {
     color: white;
     border-radius: 0;
-    background: #81A05D;
+    background: #8ac43f;
     width: 170px; }
   #contact input, #contact textarea {
     background: #f1f1f1; }
+  #contact .form-control:focus {
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
 
 @font-face {
   body {
@@ -875,28 +858,20 @@ body .shopSidebar .showingResults {
   body .shopSidebar .showingResults h5 {
     float: left;
     margin-left: 15px; }
-  body .shopSidebar .showingResults h6 {
-    float: right;
-    margin-left: 15px;
-    border-style: hidden;
-    list-style-type: none; }
 body .shopSidebar .filter {
   border: 2px solid green;
   width: 100%;
   height: 150px;
   margin-bottom: 20px; }
-  body .shopSidebar .filter progress {
-    width: 80%;
-    height: 5px;
-    margin: 20px;
-    display: block; }
-  body .shopSidebar .filter span {
+  body .shopSidebar .filter h5 {
     float: left;
     margin-left: 5px;
     font-size: 12px; }
   body .shopSidebar .filter button {
     float: right;
-    margin-right: 5px; }
+    margin-right: 5px;
+    border: none;
+    background: lightgray; }
 body .shopSidebar .social {
   border: 1px solid lightgray;
   width: 100%;
@@ -1015,7 +990,7 @@ body .shopSidebar .pages {
   max-height: 320px;
   max-width: 457px; }
 #delivery h3 {
-  color: #81A05D; }
+  color: #8ac43f; }
 #delivery p {
   line-height: 1.5; }
 
